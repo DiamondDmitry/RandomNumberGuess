@@ -43,10 +43,6 @@ class RandomNumberGenerator
                     {
                         Console.WriteLine("Число должно быть не более 100");
                     }
-                    else if (guess % 1 != 0)
-                    {
-                        Console.WriteLine("Число должно быть целое");
-                    }
                     else
                     {
                         break;

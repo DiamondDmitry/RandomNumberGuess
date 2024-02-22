@@ -15,7 +15,7 @@ class RandomNumberGenerator
         Random rnd = new Random();
 
         // Создаем переменную для хранения случайного числа
-        var secret = rnd.Next(1, 100);
+        var secret = rnd.Next(1, 101);
 
         // Создаем переменную для хранения числа попыток
         int tryCount = 0;
